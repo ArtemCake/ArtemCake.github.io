@@ -1,0 +1,336 @@
+<div id="timeline">
+    <div class="regions">
+        <div class="tabs" style="border: solid;">
+            <div class="title"><p>Фантастические твари и где они обитают</p></div>
+            <input id="tab1" type="radio" name="tabs" checked="">
+            <label for="tab1">Опасные существа</label>
+            <input id="tab2" type="radio" name="tabs"> 
+            <label for="tab2">Дикие существа<br>(в некоторых случаях могут причинить вред)</label>
+            <input id="tab3" type="radio" name="tabs">
+            <label for="tab3">Безобидные существа</label>
+            <input id="tab4" type="radio" name="tabs">
+            <label for="tab4">Волшебные растения</label>
+        
+            <section id="content-tab1">
+                <div class="tabl">
+                    <div class="podtabl">
+                        <div class="names">название</div>
+                        <img src="https://i.imgur.com/SexmqW1.jpeg">
+                        <p>
+                            asfsf sgljsgls sdgjsgl sdgljslgs slgjsl sgljsgl sgj ls gslgjs l slgjsl slgj l slg sjd dgdgd  dgdgd g  dfgd fgg dgdg ddh dhdhdh d dhdfh d hdhd hdhd hdhd dh dh ddhdd hd hd hdhdh dhdhdh d hdh 
+                            
+                        </p>
+                    </div>
+                    <div class="podtabl">
+                        <div class="names">название</div>
+                        <p>
+                            2
+                        </p>
+                    </div>
+                    <div class="podtabl">
+                        <div class="names">название</div>
+                        <p>
+                            3
+                        </p>
+                    </div>
+                    <div class="podtabl">
+                        <div class="names">название</div>
+                        <p>
+                            7
+                        </p>
+                    </div>
+                    <div class="podtabl">
+                        <div class="names">название</div>
+                        <p>
+                            7
+                        </p>
+                    </div>
+                </div>      
+            </section>
+
+            <section id="content-tab2">
+                <div class="tabl">
+                    <div class="podtabl">
+                        <div class="names">название</div>
+                        <p>
+                            4
+                        </p>
+                    </div>
+                    <div class="podtabl" >
+                        <div class="names">название</div>
+                        <p>
+                            5
+                        </p>
+                    </div>
+                    <div class="podtabl" >
+                        <div class="names">название</div>
+                        <p>
+                            6
+                        </p>
+                    </div>
+                </div>      
+            </section>
+
+            <section id="content-tab3">
+                <div class="tabl">
+                    <div class="podtabl">
+                        <div class="names">название</div>
+                        <p>
+                            7
+                        </p>
+                    </div>
+                    <div class="podtabl">
+                        <div class="names">название</div>
+                        <p>
+                            8
+                        </p>
+                    </div>
+                    <div class="podtabl">
+                        <div class="names">название</div>
+                        <p>
+                            9
+                        </p>
+                    </div>
+                </div>   
+            </section>
+
+            <section id="content-tab4">
+                <div class="tabl">
+                    <div class="podtabl">
+                        <div class="names">название</div>
+                        <p>
+                            10
+                        </p>
+                    </div>
+                    <div class="podtabl">
+                        <div class="names">название</div>
+                        <p>
+                            11
+                        </p>
+                    </div>
+                    <div class="podtabl">
+                        <div class="names">название</div>
+                        <p>
+                            12
+                        </p>
+                    </div>
+                </div> 
+            </section>
+        </div>
+    </div>
+</div>
+
+ <div class="clearer"></div>
+
+
+
+<style>
+
+
+
+        #timeline {
+            width: 920px;
+
+        }
+
+       .tabs{
+            border: solid;
+            padding: 0px;
+            margin: 0 auto;
+        }
+
+        .regions {
+            width: 920px;
+            margin: 10px;
+
+            margin-top: 9px;
+            position: absolute;
+            margin-left: 0px;
+        }
+
+        .tabs>section {
+            display: none;
+            height: 382px;
+            overflow-y: auto;
+            margin-right: -19px;
+            font-family: sans-serif;
+        }
+
+        .tabs>section>table {
+            margin: 0 0 5px;
+            line-height: 1.5;
+            color: red;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+
+
+        }
+
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transition: opacity .55s ease-in-out;
+            }
+
+            to {
+                opacity: 1;
+            }
+
+
+
+        }
+
+        .tabl{
+            display: inline-block;
+            height: 382px;
+        }
+
+
+        .podtabl{
+            display: inline-block;
+            width: 258px;
+            height: 150px;
+            border: solid;
+            overflow-y: auto;
+            margin-right: 25px;
+            margin-bottom: 20px;
+        }
+
+        .title{
+            height: 52px;
+            text-align: center;
+            background-color: #b6c1c7;
+        }
+
+        .title p{
+            padding-top: 15px;
+            margin: 0px;
+        }
+
+        .tabs>input {
+            display: none;
+            position: absolute;
+        }
+
+
+/*основные разделы*/
+
+
+        .tabs>label:first-of-type {
+            box-shadow: none
+        }
+
+        .tabs>label {
+            display: block;
+            width: 245px;
+            height: 54px;
+            margin: 5px 20px 15px 25px;
+            border: solid;
+        }
+
+        .tabs>label:after {
+            position: absolute;
+            display: block;
+            color: red;
+        }
+
+
+        .tabs>label:hover:after {
+            background: blue;
+            font-weight: bold;
+        }
+
+        .tabs>label:hover {
+            font-stretch: expanded;
+            letter-spacing: 1.7px;
+            cursor: pointer;
+            transition: all .3s cubic-bezier(0.20, 0.1, 0.20, 1) 0s
+        }
+
+/*цвета выделения таблицы*/
+
+        .tabs>input:checked+label {
+            color: green;
+            background: red;
+        }
+
+
+        #tab1:checked~#content-tab1,
+        #tab2:checked~#content-tab2,
+        #tab3:checked~#content-tab3,
+        #tab4:checked~#content-tab4,
+        #tab5:checked~#content-tab5,
+        #tab6:checked~#content-tab6,
+        #tab7:checked~#content-tab7,
+        #tab8:checked~#content-tab8 {
+            display: inline-block;
+            margin-top: -298px;
+            margin-left: 325px;
+            width: 589px;
+            margin-bottom: 20px;
+        }
+
+   
+        tr>td {
+
+            padding-bottom: 1em;
+        }
+
+        table {
+
+            font-family: sans-serif !important;
+            font-size: 11px;
+            text-align: justify;
+        }
+
+        table p {
+
+            padding-right: 9px;
+            float: left;
+        }
+
+
+        a {
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 13;
+            text-transform: uppercase;
+            color: #455c44;
+        }
+
+    ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    }
+    ::-webkit-scrollbar-thumb {
+    background-color: #c3d3e0;
+    }
+
+    ::-webkit-scrollbar-track {
+    background-color: #e4e1df;
+    }
+
+        .podtabl img{
+
+            margin-left: 10px;
+            margin-right: 5px;
+            margin-top: 5px;
+            width: 80px;
+            height: 90px;
+            border: solid;
+            float: left;
+        }
+
+        .names{
+            height: 35px;
+            background-color: red;
+            text-align: center;
+        }
+
+
+    </style>
