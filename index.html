@@ -1,7 +1,7 @@
 <div id="timeline">
     <div class="regions">
-        <div class="tabs" >
-            <div class="title"><p>Волшебные животные и растения</p></div>
+        <div class="tabs" style="border: solid;">
+            <div class="title"><p>Фантастические твари и где они обитают</p></div>
             <input id="tab1" type="radio" name="tabs" checked="">
             <label for="tab1">Опасные существа</label>
             <input id="tab2" type="radio" name="tabs"> 
@@ -134,10 +134,11 @@
         }
 
        .tabs{
+            border: solid;
             padding: 0px;
             margin: 0 auto;
-           background: url(https://i.imgur.com/cA1D5Wa.jpg);
-           background-repeat: no-repeat;
+            background: url("https://i.imgur.com/cA1D5Wa.jpg") ;
+            background-repeat: no-repeat;
         }
 
         .regions {
@@ -151,7 +152,7 @@
 
         .tabs>section {
             display: none;
-            height: 382px;
+            height: 360px;
             overflow-y: auto;
             margin-right: -19px;
             font-family: sans-serif;
@@ -188,7 +189,7 @@
 
         .tabl{
             display: inline-block;
-            height: 382px;
+            height: 360px;
         }
 
 
@@ -204,8 +205,8 @@
 
         .title{
             height: 52px;
-            text-align: center;   
-    }
+            text-align: center;
+        }
 
         .title p{
             padding-top: 15px;
