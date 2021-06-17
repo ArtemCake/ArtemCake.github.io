@@ -3,13 +3,13 @@
         <div class="tabs">
             <div class="title"><p>Волшебные животные и растения</p></div>
             <input id="tab1" type="radio" name="tabs" checked="">
-            <label for="tab1">Опасные существа</label>
+            <label for="tab1"><p>Опасные существа<p></label>
             <input id="tab2" type="radio" name="tabs"> 
-            <label for="tab2">Дикие существа<br>(в некоторых случаях могут причинить вред)</label>
+            <label for="tab2"><p>Дикие существа<br>(в некоторых случаях могут причинить вред)</p></label>
             <input id="tab3" type="radio" name="tabs">
-            <label for="tab3">Безобидные существа</label>
+            <label for="tab3"><p>Безобидные существа</p></label>
             <input id="tab4" type="radio" name="tabs">
-            <label for="tab4">Волшебные растения</label>
+            <label for="tab4"><p>Волшебные растения</p></label>
         
             <section id="content-tab1">
                 <div class="tabl">
@@ -231,6 +231,8 @@
             height: 54px;
             margin: 15px 20px 15px 25px;
             background: url("https://i.imgur.com/fLiur01.jpg");
+            background-repeat: no-repeat;
+
                   }
 
         .tabs>label:after {
@@ -255,6 +257,7 @@
 
         .tabs>input:checked+label {
             background: url("https://i.imgur.com/9KmdEZp.jpg");
+            background-repeat: no-repeat;
         }
 
 
