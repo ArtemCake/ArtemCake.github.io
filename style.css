@@ -85,6 +85,10 @@
             height: 52px;
             text-align: center;
             text-transform: uppercase;
+            color: #677086;
+            font-size: 14px;
+            font-weight: 900;
+            font-family: math;
         }
 
         .title p{
@@ -112,6 +116,10 @@
             margin: 15px 20px 15px 25px;
             background: url("https://i.imgur.com/fLiur01.jpg");
             background-repeat: no-repeat;
+            color: #677086;
+            font-size: 14px;
+            font-weight: 900;
+            font-family: math;
 
                   }
 
@@ -123,6 +131,10 @@
         p.podps{
 
             font-size: 12px;
+            color: #677086;
+            font-size: 14px;
+            font-weight: 900;
+            font-family: math;
 
         }
 
@@ -142,6 +154,14 @@
             font-stretch: expanded;
             letter-spacing: 1.7px;
             cursor: pointer;
+            color: #3b4459;;
+            transition: all .3s cubic-bezier(0.20, 0.1, 0.20, 1) 0s
+        }
+        .tabs>label:hover p{
+            font-stretch: expanded;
+            letter-spacing: 1.7px;
+            cursor: pointer;
+            color: #3b4459;;
             transition: all .3s cubic-bezier(0.20, 0.1, 0.20, 1) 0s
         }
 
