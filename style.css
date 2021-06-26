@@ -28,7 +28,6 @@
 
 
 
-
 /*----------------------------------------------------------------------*/
 
         #timeline {
@@ -158,7 +157,7 @@
                   }
 
         .tabs>label p{
-            padding: 15px;
+            padding: 10px;
             margin: 0px;
         }
 
@@ -215,8 +214,8 @@
         #tab7:checked~#content-tab7,
         #tab8:checked~#content-tab8 {
             display: inline-block;
-            margin-top: -275px;
-            margin-left: 321px;
+            margin-top: -343px;
+            margin-left: 319px;
             width: 589px;
             margin-bottom: 20px;
         }
