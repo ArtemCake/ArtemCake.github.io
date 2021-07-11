@@ -52,14 +52,13 @@
         }
 
         .tabs>section {
-            position: absolute;
             display: none;
             height: 355px;
             overflow-y: auto;
             margin-right: -19px;
             font-family: sans-serif;
             font-size: 12px;
-        }
+            }
 
         .tabs>section>table {
             margin: 0 0 5px;
@@ -144,18 +143,18 @@
 
         .tabs>label {
             display: block;
-            width: 249px;
-            height: 55px;
-            margin: 17px 20px 15px 25px;
-            background: url(https://i.imgur.com/fLiur01.jpg);
+            width: 245px;
+            height: 54px;
+            margin: 15px 20px 15px 25px;
+            background: url("https://i.imgur.com/fLiur01.jpg");
             background-repeat: no-repeat;
             color: #677086;
             font-size: 16px;
             font-weight: 900;
             font-family: math;
             text-transform: uppercase;
-            z-index: 2;
-        }
+
+                  }
 
         .tabs>label p{
             padding: 10px;
@@ -215,7 +214,7 @@
         #tab7:checked~#content-tab7,
         #tab8:checked~#content-tab8 {
             display: inline-block;
-            margin-top: -503px;
+            margin-top: -344px;
             margin-left: 319px;
             width: 589px;
             margin-bottom: 20px;
@@ -287,8 +286,5 @@
             font-size: 16px;
         }
 
-        .razm{
-            background: url(https://i.imgur.com/vPJOjdA.jpg);
-            background-repeat: no-repeat;
-            height: 444px;
-        }
+
+
