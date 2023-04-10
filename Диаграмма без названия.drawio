@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T13:04:15.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" version="21.1.5" etag="6iFg_4FM0mxnM3-vW5ki" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T13:51:40.353Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="bkp8_zJltVcrIyzsJ1-r" version="21.1.5" type="github">
   <diagram name="Страница 1" id="v7r8X9sq1nCr_xMwlNhr">
-    <mxGraphModel>
+    <mxGraphModel dx="823" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="02_ngRH0aVDhQz1hZiOn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="02_ngRH0aVDhQz1hZiOn-2" target="02_ngRH0aVDhQz1hZiOn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="02_ngRH0aVDhQz1hZiOn-2" value="Скопировать, справочники, документы и формы, связанные с записью данных, отсканированных штрих-кодов в Базу БПО Мобильный с помощью сравнения-объединения" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="10" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="02_ngRH0aVDhQz1hZiOn-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="02_ngRH0aVDhQz1hZiOn-4" target="02_ngRH0aVDhQz1hZiOn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="02_ngRH0aVDhQz1hZiOn-4" value="добавить кнопку настройки ТСД на основную форму, которая взывает форму настройки оборудования из БПО" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="02_ngRH0aVDhQz1hZiOn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="02_ngRH0aVDhQz1hZiOn-6" target="02_ngRH0aVDhQz1hZiOn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="02_ngRH0aVDhQz1hZiOn-6" value="Добавить на основную форму возможность включения и отключения ТСД" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="02_ngRH0aVDhQz1hZiOn-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="02_ngRH0aVDhQz1hZiOn-8" target="02_ngRH0aVDhQz1hZiOn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="02_ngRH0aVDhQz1hZiOn-8" value="Добавить на основную форму возможность включения и отключения ТСД" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="02_ngRH0aVDhQz1hZiOn-9" value="Заменить вызов Datawedge, на обращение к драйверу сканкод для 1с" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="500" width="230" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
